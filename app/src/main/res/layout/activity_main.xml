@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#262B41"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:orientation="horizontal"
+        android:background="@drawable/round_upper"
+        android:backgroundTint="#313F59"
+        >
+<!--        android:layout_gravity="center"-->
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/drawer"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz App"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
+        android:textSize="40dp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-condensed"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="57dp"
+            android:src="@drawable/account"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:background="#DB842D">
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/round"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Question Count"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="200"
+                android:textSize="25sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/round"
+            android:backgroundTint="#DB842D"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Earned Point"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5000"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/round_rest"
+        android:backgroundTint="#313F59"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fountain_pen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Art and Literature"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/round_rest"
+        android:backgroundTint="#313F59"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/cube"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General Knowledge "
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="17dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/round_rest"
+        android:backgroundTint="#313F59"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/flask"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Science &amp; Nature"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/round_rest"
+        android:backgroundTint="#293144"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/project_management"
+            android:layout_marginLeft="-50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Technology"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/round_rest"
+        android:backgroundTint="#CDDBE6"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="UPGRADE"
+            android:layout_gravity="center"
+            android:onClick="next"
+            android:textSize="25sp"
+            android:backgroundTint="#CDDBE6"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
