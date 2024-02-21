@@ -20,5 +20,4 @@ To get started with the Quiz Mobile Application, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/quiz-mobile-app.git
-   cd quiz-mobile-app
+   https://github.com/Vishnu9804/QuizApplication
