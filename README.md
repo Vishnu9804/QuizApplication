@@ -17,7 +17,7 @@ Welcome to the Quiz Mobile Application! This app is designed to provide an engag
 
 To get started with the Quiz Mobile Application, follow these steps:
 
-1. **Clone the Repository:**
+1. **Clone the Repository:-**
 
    ```bash
    https://github.com/Vishnu9804/QuizApplication
