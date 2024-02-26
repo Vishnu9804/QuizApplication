@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Quiz Mobile Application! This app is designed to provide an engaging and interactive quiz experience on mobile devices, allowing users to test their knowledge on various topics.
+Welcome to the Quiz Mobile Application! This app is designed to provide an engaging and interactive quiz experience on mobile devices, allowing users to test their knowledge on various topics.This app is built in android and java
 
 ## Features
 
