@@ -15,7 +15,7 @@ Welcome to the Quiz Mobile Application! This app is designed to provide an engag
 
 ## Installation
 
-To get started with the Quiz Mobile Application, follow these steps:
+To get started with the Quiz Mobile Application,  go with this following these steps:
 
 1. **Clone the Repository :-**
 
